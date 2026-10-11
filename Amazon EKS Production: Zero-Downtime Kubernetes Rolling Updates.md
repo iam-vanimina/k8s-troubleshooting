@@ -1,3 +1,4 @@
+```
 Amazon EKS Production: Zero-Downtime Kubernetes Rolling Updates
 Overview
 
@@ -433,3 +434,5 @@ Conclusion
 A production EKS rolling update requires coordination between Kubernetes, the application, and the AWS load-balancing layer.
 
 The combination of maxUnavailable: 0, adequate surge capacity, realistic readiness checks, AWS Pod Readiness Gates where applicable, graceful termination, and monitored rollback significantly reduces the risk of release-related downtime. Validate the full production traffic path before treating a deployment as zero-downtime capable.
+
+```
